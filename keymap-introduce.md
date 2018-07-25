@@ -34,21 +34,21 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 
 ## Ctrl
 
-|快捷键|介绍|
-|:---------|:---------|
-|<kbd>Ctrl</kbd> + <kbd>F</kbd>|在当前文件进行文本查找 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>R</kdb>|在当前文件进行文本替换 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>Z</kdb>|撤销 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>Y</kdb>|删除光标所在行 或 删除选中的行 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>X</kdb>|剪切光标所在行 或 剪切选择内容|
+|快捷键|介绍| 安装 Vim 插件之后
+|:---------|:---------|:------------------|
+|<kbd>Ctrl</kbd> + <kbd>F</kbd>|在当前文件进行文本查找 `（必备）` | <kbd>/</kbd>
+|<kbd>Ctrl</kbd> + <kbd>R</kdb>|在当前文件进行文本替换 `（必备）` | `:%s/[origin]/[after]/g`
+|<kbd>Ctrl</kbd> + <kbd>Z</kdb>|撤销 `（必备）` | `u`
+|<kbd>Ctrl</kbd> + <kbd>Y</kdb>|删除光标所在行 或 删除选中的行 `（必备）` | `dd`
+|<kbd>Ctrl</kbd> + <kbd>X</kdb>|剪切光标所在行 或 剪切选择内容| 
 |<kbd>Ctrl</kbd> + <kbd>C</kdb>|复制光标所在行 或 复制选择内容|
 |<kbd>Ctrl</kbd> + <kbd>D</kdb>|复制光标所在行 或 复制选择内容，并把复制内容插入光标位置下面 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>W</kdb>|递进式选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展选中范围 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>E</kdb>|显示最近打开的文件记录列表 `（必备）` |
+|<kbd>Ctrl</kbd> + <kbd>E</kdb>|显示最近打开的文件记录列表 `（必备）` | <kbd>Ctrl</kbd> + <kbd>E</kbd>
 |<kbd>Ctrl</kbd> + <kbd>N</kdb>|根据输入的 **类名** 查找类文件 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>G</kdb>|在当前文件跳转到指定行处|
+|<kbd>Ctrl</kbd> + <kbd>G</kdb>|在当前文件跳转到指定行处| `:[lineNum]`
 |<kbd>Ctrl</kbd> + <kbd>J</kdb>|插入自定义动态代码模板 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>P</kdb>|方法参数提示显示 `（必备）` |
+|<kbd>Ctrl</kbd> + <kbd>P</kdb>|方法参数提示显示 `（必备）` | <kbd>Ctrl</kbd> + <kbd>P</kdb>
 |<kbd>Ctrl</kbd> + <kbd>Q</kdb>|光标所在的变量 / 类名 / 方法名等上面（也可以在提示补充的时候按），显示文档内容|
 |<kbd>Ctrl</kbd> + <kbd>U</kdb>|前往当前光标所在的方法的父类的方法 / 接口定义 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>B</kdb>|进入光标所在的方法/变量的接口或是定义处，等效于 `Ctrl + 左键单击`  `（必备）` |
@@ -70,11 +70,11 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 |<kbd>Ctrl</kbd> + <kbd>F11</kdb>|选中文件 / 文件夹，使用助记符设定 / 取消书签 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>F12</kdb>|弹出当前文件结构层，可以在弹出的层上直接输入，进行筛选|
 |<kbd>Ctrl</kbd> + <kbd>Tab</kdb>|编辑窗口切换，如果在切换的过程又加按上delete，则是关闭对应选中的窗口|
-|<kbd>Ctrl</kbd> + <kbd>End</kdb>|跳到文件尾|
-|<kbd>Ctrl</kbd> + <kbd>Home</kdb>|跳到文件头|
+|<kbd>Ctrl</kbd> + <kbd>End</kdb>|跳到文件尾| `G`
+|<kbd>Ctrl</kbd> + <kbd>Home</kdb>|跳到文件头| `gg`
 |<kbd>Ctrl</kbd> + <kbd>Space</kdb>|基础代码补全，默认在 Windows 系统上被输入法占用，需要进行修改，建议修改为 `Ctrl + 逗号` `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>Delete</kdb>|删除光标后面的单词或是中文句 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>BackSpace</kdb>|删除光标前面的单词或是中文句 `（必备）` |
+|<kbd>Ctrl</kbd> + <kbd>Delete</kdb>|删除光标后面的单词或是中文句 `（必备）` | `dw` or `dW`
+|<kbd>Ctrl</kbd> + <kbd>BackSpace</kdb>|删除光标前面的单词或是中文句 `（必备）` | <kbd>Ctrl</kbd> + <kbd>w</kbd>
 |<kbd>Ctrl</kbd> + <kbd>1,2,3...9</kdb>|定位到对应数值的书签位置 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>左键单击</kdb>|在打开的文件标题上，弹出该文件路径 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>光标定位</kdb>|按 Ctrl 不要松开，会显示光标所在的类信息摘要|
@@ -267,3 +267,34 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 ![vim插件推荐](images/xxvii-b-ideavim-1.jpg)
 
 > * 如果你是一个 Vim 粉，IntelliJ IDEA 也为你准备了一个方案：如上图安装 IdeaVim 插件即可。
+
+## 非常重要的快捷键
+
+跳转
+
+快捷需求             | 快捷键        |
+:-------------------|:-------------|
+项目中定位 Class 文件 | 
+项目中定位普通文件    |
+Find in Path       |
+向前向后跳转         | Alt + Left/Right
+
+查看
+
+快捷需求            | 快捷键        |
+:------------------|:-------------|
+查看类定义           | F3
+查看当前光标下类的子类 | Ctrl + T
+查看最近打开的文档   |
+查看调用层级        | Ctrl + Alt + h
+查看文件大纲        | Ctrl + O
+
+编辑
+
+快捷需求            | 快捷键        |
+:------------------|:-------------|
+删除行              |
+移动当前行上下       | Alt + Up/Down
+复制当前行到上下一行  | Alt + Shift + Up/Down |
+修改文件名
+修改变量名

@@ -24,6 +24,22 @@
 > * `config` 目录是 IntelliJ IDEA 个性化化配置目录，或者说是整个 IDE 设置目录。也是我个人认为最重要的目录，没有之一，如果你还记得安装篇的介绍的时候，安装新版本的 IntelliJ IDEA 会自动扫描硬盘上的旧配置目录，指的就是该目录。这个目录主要记录了：IDE 主要配置功能、自定义的代码模板、自定义的文件模板、自定义的快捷键、Project 的 tasks 记录等等个性化的设置。
 > * `system` 目录是 IntelliJ IDEA 系统文件目录，是 IntelliJ IDEA 与开发项目一个桥梁目录，里面主要有：缓存、索引、容器文件输出等等，虽然不是最重要目录，但是也是最不可或缺目录之一。
 
+在 config 文件夹中又有如下的文件
+
+- codestyle 代码风格方案
+- colors  自定义编辑器颜色和字体
+- fileTemplates 用户定义的文件模板
+- filetypes 用户定义文件类型
+- inspection 代码检查配置文件
+- keymaps
+- options 各种选项，例如，功能使用统计信息和宏
+- scratches Scratch files and buffers
+- templates 用户定义 live template
+- tools 用户定义的外部工具的配置文件
+- shelf Shelved changes
+
+更多可以参考：<https://www.jetbrains.com/help/idea/tuning-the-ide.html>
+
 ## 配置文件常见修改内容说明
 
 ![JVM 配置说明](images/viii-a-configuration-files-1.jpg)
