@@ -26,3 +26,13 @@
 
 ## 在新机器中使用相同的方法
 导入配置文件夹
+
+## 使用 IntelliJ IDEA 自建的同步
+
+在 File -> Settings Reposotory 中使用 git ropo 来同步文件，第一次选择 Overwrite Remote，然后 IDE 就会自动将设置push到远程仓库中。
+
+## reference
+
+- <https://www.vojtechruzicka.com/intellij-idea-tips-tricks-synchronization-sharing-settings>
+
+更多的 tip 可以访问: <https://www.vojtechruzicka.com/tags/idea/>
