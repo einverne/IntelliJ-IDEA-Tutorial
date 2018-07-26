@@ -1,4 +1,6 @@
-# 重要说明，看三遍
+# IntelliJ IDEA 教程
+
+本教程 fork 自 [judasn](https://github.com/judasn/IntelliJ-IDEA-Tutorial) 增加了 gitbook 相关配置。
 
 ## 特别事件
 

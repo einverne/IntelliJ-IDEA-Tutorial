@@ -1,3 +1,5 @@
+# 目录
+
 * [01. IntelliJ IDEA 介绍（新用户必看）](introduce.md)
 * [02. 教程介绍（新用户必看）](about-this-tutorial.md)
 * [03. 安装环境：Windows](windows-install.md)
@@ -41,3 +43,9 @@
 * [41. 最特殊的快捷键 Alt + Enter 介绍（新用户必看）](hotkey-alt-enter-introduce.md)
 * [42. IntelliJ IDEA 插件开发视频教程](plugins-develop.md)
 * [43. 本教程总结](this-tutorial-the-end.md)
+
+# 附加篇
+
+* [在机器之间同步 Intellij IDEA 配置](sync-settings-between-machines.md)
+* [IntelliJ IDEA Tips & Tricks: 多个光标](tips-multiple-cursors.md)
+* [IntelliJ IDEA Tips & Tricks: 后缀补全](tips-postfix-completion.md)
