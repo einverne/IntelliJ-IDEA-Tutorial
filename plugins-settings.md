@@ -86,9 +86,13 @@
 |Statistic|代码统计|<https://plugins.jetbrains.com/plugin/4509?pr=idea>|
 |Scala|对 Scala 支持|<https://plugins.jetbrains.com/plugin/1347-scala>|
 |Translation|翻译插件|<https://github.com/YiiGuxing/TranslationPlugin>|
+|MybatisX|mybatis 框架辅助（免费）|<https://plugins.jetbrains.com/plugin/10119-mybatisx>|
+|Lombok Plugin|Lombok 功能辅助插件|<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>|
+|.ignore|各类版本控制忽略文件生成工具|<https://plugins.jetbrains.com/plugin/7495--ignore>|
+|mongo4idea|mongo 客户端|<https://github.com/dboissier/mongo4idea>|
+|iedis|redis 客户端|<https://plugins.jetbrains.com/plugin/9228-iedis>|
 |VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
-
-
+|GenerateAllSetter|new POJO 类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
 
 ## lombok 插件的使用
 
