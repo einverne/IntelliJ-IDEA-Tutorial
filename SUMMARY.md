@@ -50,3 +50,4 @@
 * [IntelliJ IDEA Tips & Tricks: 多个光标](tips-multiple-cursors.md)
 * [IntelliJ IDEA Tips & Tricks: 后缀补全](tips-postfix-completion.md)
 * [代码风格设定](codestype-settings.md)
+* [在 IntelliJ IDEA 中查看一个类的所有继承类](find-all-implementations.md)

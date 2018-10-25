@@ -2,6 +2,8 @@
 
 本教程 fork 自 [judasn](https://github.com/judasn/IntelliJ-IDEA-Tutorial) 增加了 gitbook 相关配置。
 
+根据 [guobinhit](https://github.com/guobinhit/intellij-idea-tutorial) 增加相应内容。
+
 ## 团队 DevOps 方案参考
 
 <a target="_blank" href="https://coding.net/?utm_source=judasn">
