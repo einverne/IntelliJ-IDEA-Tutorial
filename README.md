@@ -2,6 +2,8 @@
 
 本教程 fork 自 [judasn](https://github.com/judasn/IntelliJ-IDEA-Tutorial) 增加了 gitbook 相关配置。
 
+根据 [guobinhit](https://github.com/guobinhit/intellij-idea-tutorial) 增加相应内容。
+
 ## 特别事件
 
 - IntelliJ IDEA 2018.1 发布（2018-03-28）
