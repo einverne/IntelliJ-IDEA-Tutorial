@@ -89,3 +89,8 @@
 - 推荐 IntelliJ IDEA 插件库搜索安装：
 	- <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Browse repositories...</kbd> > <kbd>Search for "lombok"</kbd> > <kbd>Install Plugin</kbd>
 - IntelliJ IDEA 配置方法，官网有说明（该配置是 Project 级别，不是 IDE 全局的）：<https://github.com/mplushnikov/lombok-intellij-plugin#required-intellij-configuration>
+
+## key promoter
+记录 IntelliJ IDEA 的使用记录，如果有快捷键则会出现提示，这样使用一段时间之后就能够对 IntelliJ 常用的一些操作有个清晰的记录了。
+
+![key promoter](images/keypromoter-top-ten.png)
