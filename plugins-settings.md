@@ -2,7 +2,7 @@
 
 ## 插件的设置
 
-在 IntelliJ IDEA 的安装讲解中我们其实已经知道，IntelliJ IDEA 本身很多功能也都是通过插件的方式来实现的，只是 IntelliJ IDEA 本身就是它自己的插件平台最大的开发者而已，开发了很多优秀的插件。 
+在 IntelliJ IDEA 的安装讲解中我们其实已经知道，IntelliJ IDEA 本身很多功能也都是通过插件的方式来实现的，只是 IntelliJ IDEA 本身就是它自己的插件平台最大的开发者而已，开发了很多优秀的插件。
 
 > * 官网插件库：<https://plugins.jetbrains.com/>
 
@@ -10,7 +10,7 @@
 
 > * 如上图标注 1 所示，IntelliJ IDEA 对插件进行了很好的分类：
 >
->> * `All plugins` 显示所有插件。 
+>> * `All plugins` 显示所有插件。
 >> * `Enabled` 显示当前所有已经启用的插件。
 >> * `Disabled` 显示当期那所有已经禁用的插件。
 >> * `Bundled` 显示所有 IntelliJ IDEA 自带的插件。
@@ -19,7 +19,7 @@
 > * 如上图标注 3 所示，弹出 IntelliJ IDEA 公司自行开发的插件仓库列表，供下载安装。
 > * 如上图标注 4 所示，弹出插件仓库中所有插件列表供下载安装。
 > * 如上图标注 5 所示，浏览本地的插件文件进行安装，而不是从服务器上下载并安装。
-> * 需要严重注意的是：在国内的网络下，很经常出现显示不了插件列表，或是显示了插件列表，无法下载完成安装。这时候请自行开VPN，一般都可以得到解决。
+> * 需要严重注意的是：在国内的网络下，很经常出现显示不了插件列表，或是显示了插件列表，无法下载完成安装。这时候请自行开 VPN，一般都可以得到解决。
 
 ![插件的设置](images/xx-a-plugins-settings-2.jpg)
 
@@ -65,10 +65,10 @@
 |MybatisX|mybatis 框架辅助（免费）|<https://plugins.jetbrains.com/plugin/10119-mybatisx>|
 |Lombok Plugin|Lombok 功能辅助插件|<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>|
 |.ignore|各类版本控制忽略文件生成工具|<https://plugins.jetbrains.com/plugin/7495--ignore>|
-|mongo4idea|mongo客户端|<https://github.com/dboissier/mongo4idea>|
-|iedis|redis客户端|<https://plugins.jetbrains.com/plugin/9228-iedis>|
+|mongo4idea|mongo 客户端|<https://github.com/dboissier/mongo4idea>|
+|iedis|redis 客户端|<https://plugins.jetbrains.com/plugin/9228-iedis>|
 |VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
-|GenerateAllSetter|new POJO类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
+|GenerateAllSetter|new POJO 类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
 
 ## lombok 插件的使用
 
@@ -76,3 +76,8 @@
 - 推荐 IntelliJ IDEA 插件库搜索安装：
 	- <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Browse repositories...</kbd> > <kbd>Search for "lombok"</kbd> > <kbd>Install Plugin</kbd>
 - IntelliJ IDEA 配置方法，官网有说明（该配置是 Project 级别，不是 IDE 全局的）：<https://github.com/mplushnikov/lombok-intellij-plugin#required-intellij-configuration>
+
+## key promoter
+记录 IntelliJ IDEA 的使用记录，如果有快捷键则会出现提示，这样使用一段时间之后就能够对 IntelliJ 常用的一些操作有个清晰的记录了。
+
+![key promoter](images/keypromoter-top-ten.png)
