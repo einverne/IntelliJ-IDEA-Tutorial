@@ -8,6 +8,16 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 
 对于下面各个快捷键的使介绍描述也许用我个人语言翻译起来不够准确或是不全面，且在不同的文件类型上按出来的效果也可能结果不太一样,所以 **强烈建议** 你自己把各个快捷键都亲自操作下体会下各个快捷键的实际用法。
 
+用户自定义的 keymap 
+
+Windows and *NIX systems: 
+
+    <User home>/.IntelliJ IDEA<xx>/config/keymaps
+
+macOS: 
+    
+    ~/Library/Preferences/IntelliJ IDEA<xx>/keymaps/
+
 ## 前提
 
 由于文化的不同，我们使用的电脑必备一个软件就是中文输入法，而目前大多数人都使用搜狗拼音输入法或是其他类似的。而这些输入法跟 IntelliJ IDEA 有一个万恶的冲突永恒不变：快捷键冲突。所以为了配合 IntelliJ IDEA，我们要去掉这些输入法下的所有快捷键。
@@ -34,15 +44,15 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 
 ## Ctrl
 
-|快捷键|介绍| 安装 Vim 插件之后
+|快捷键    |介绍      | 安装 Vim 插件之后
 |:---------|:---------|:------------------|
 |<kbd>Ctrl</kbd> + <kbd>F</kbd>|在当前文件进行文本查找 `（必备）` | <kbd>/</kbd>
 |<kbd>Ctrl</kbd> + <kbd>R</kdb>|在当前文件进行文本替换 `（必备）` | `:%s/[origin]/[after]/g`
 |<kbd>Ctrl</kbd> + <kbd>Z</kdb>|撤销 `（必备）` | `u`
 |<kbd>Ctrl</kbd> + <kbd>Y</kdb>|删除光标所在行 或 删除选中的行 `（必备）` | `dd`
-|<kbd>Ctrl</kbd> + <kbd>X</kdb>|剪切光标所在行 或 剪切选择内容| 
-|<kbd>Ctrl</kbd> + <kbd>C</kdb>|复制光标所在行 或 复制选择内容|
-|<kbd>Ctrl</kbd> + <kbd>D</kdb>|复制光标所在行 或 复制选择内容，并把复制内容插入光标位置下面 `（必备）` |
+|<kbd>Ctrl</kbd> + <kbd>X</kdb>|剪切光标所在行 或 剪切选择内容| `dd` or `x`
+|<kbd>Ctrl</kbd> + <kbd>C</kdb>|复制光标所在行 或 复制选择内容| `yy` or `y`
+|<kbd>Ctrl</kbd> + <kbd>D</kdb>|复制光标所在行 或 复制选择内容，并把复制内容插入光标位置下面 `（必备）` | `yyp`
 |<kbd>Ctrl</kbd> + <kbd>W</kdb>|递进式选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展选中范围 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>E</kdb>|显示最近打开的文件记录列表 `（必备）` | <kbd>Ctrl</kbd> + <kbd>E</kbd>
 |<kbd>Ctrl</kbd> + <kbd>N</kdb>|根据输入的 **类名** 查找类文件 `（必备）` |
@@ -63,8 +73,8 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 |<kbd>Ctrl</kbd> + <kbd>\[</kdb>|移动光标到当前所在代码的花括号开始位置|
 |<kbd>Ctrl</kbd> + <kbd>\]</kdb>|移动光标到当前所在代码的花括号结束位置|
 |<kbd>Ctrl</kbd> + <kbd>F1</kdb>|在光标所在的错误代码处显示错误信息 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>F3</kdb>|调转到所选中的词的下一个引用位置 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>F4</kdb>|关闭当前编辑文件|
+|<kbd>Ctrl</kbd> + <kbd>F3</kdb>|调转到所选中的词的下一个引用位置 `（必备）` | '*' and n
+|<kbd>Ctrl</kbd> + <kbd>F4</kdb>|关闭当前编辑文件| :q
 |<kbd>Ctrl</kbd> + <kbd>F8</kdb>|在 Debug 模式下，设置光标当前行为断点，如果当前已经是断点则去掉断点|
 |<kbd>Ctrl</kbd> + <kbd>F9</kdb>|执行 Make Project 操作|
 |<kbd>Ctrl</kbd> + <kbd>F11</kdb>|选中文件 / 文件夹，使用助记符设定 / 取消书签 `（必备）` |
@@ -78,8 +88,8 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 |<kbd>Ctrl</kbd> + <kbd>1,2,3...9</kdb>|定位到对应数值的书签位置 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>左键单击</kdb>|在打开的文件标题上，弹出该文件路径 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>光标定位</kdb>|按 Ctrl 不要松开，会显示光标所在的类信息摘要|
-|<kbd>Ctrl</kbd> + <kbd>左方向键</kdb>|光标跳转到当前单词 / 中文句的左侧开头位置 `（必备）` |
-|<kbd>Ctrl</kbd> + <kbd>右方向键</kdb>|光标跳转到当前单词 / 中文句的右侧开头位置 `（必备）` |
+|<kbd>Ctrl</kbd> + <kbd>左方向键</kdb>|光标跳转到当前单词 / 中文句的左侧开头位置 `（必备）` | `b`
+|<kbd>Ctrl</kbd> + <kbd>右方向键</kdb>|光标跳转到当前单词 / 中文句的右侧开头位置 `（必备）` | `e`
 |<kbd>Ctrl</kbd> + <kbd>前方向键</kdb>|等效于鼠标滚轮向前效果 `（必备）` |
 |<kbd>Ctrl</kbd> + <kbd>后方向键</kdb>|等效于鼠标滚轮向后效果 `（必备）` |
 
@@ -273,16 +283,16 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 跳转
 
 快捷需求             | 快捷键        |
-:-------------------|:-------------|
+:--------------------|:-------------|
 项目中定位 Class 文件 | 
 项目中定位普通文件    |
-Find in Path       |
+Find in Path         |
 向前向后跳转         | Alt + Left/Right
 
 查看
 
 快捷需求            | 快捷键        |
-:------------------|:-------------|
+:-------------------|:-------------|
 查看类定义           | F3
 查看当前光标下类的子类 | Ctrl + T
 查看最近打开的文档   |
