@@ -6,9 +6,14 @@
 
 ## 特别事件
 
-- IntelliJ IDEA 2018.1 发布（2018-03-28）
+- IntelliJ IDEA 2018.3 发布（2018-11-21）
+- IntelliJ IDEA 2018.2 发布（2018-07-25）
 	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
 	- 下载：<http://www.jetbrains.com/idea/download/>
+- 实体书
+	- 有在计划出实体书，并且空闲时已经在潦草写点，计划 2019-02 春节前结束。（不排除工作上有事情）
+	- 计算机类书籍销量都很小（总销量能 1W 册算是牛逼了），赚不了什么钱，而且容易 PDF，这是无法阻拦的。写实体书只是因为想白纸黑字证明自己存在过，即使哪天突然消失了也能有人会记得我。
+
 
 
 ## 介绍(Introduce)
@@ -158,4 +163,5 @@
 
 ## AD
 
-- [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com)
+- [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
+- [适合后端开发者的前端 React-Admin](https://github.com/satan31415/umi-admin)

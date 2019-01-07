@@ -42,7 +42,8 @@
 |插件名称    |插件介绍      |官网地址        |
 |:-----------------|:----------|:--------------|
 |Gitee|开源中国的码云插件|<https://plugins.jetbrains.com/plugin/8383-gitee>|
-|Alibaba Java Coding Guidelines|阿里巴巴出的代码规范检查插件|https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines|
+|Alibaba Java Coding Guidelines|阿里巴巴出的代码规范检查插件|<https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines>|
+|360 FireLine Plugin|360 的代码静态分析工具|<https://plugins.jetbrains.com/plugin/9292-360-fireline-plugin>|
 |IDE Features Trainer|IntelliJ IDEA 官方出的学习辅助插件|<https://plugins.jetbrains.com/plugin/8554?pr=idea>|
 |Key promoter|快捷键提示|<https://plugins.jetbrains.com/plugin/4455?pr=idea>|
 |Grep Console|自定义设置控制台输出颜色|<https://plugins.jetbrains.com/idea/plugin/7125-grep-console>|
@@ -59,10 +60,12 @@
 |Jindent-Source Code Formatter|自定义类、方法、doc、变量注释模板|<http://plugins.jetbrains.com/plugin/2170?pr=idea>|
 |Translation|翻译插件|<https://github.com/YiiGuxing/TranslationPlugin>|
 |Maven Helper|Maven 辅助插件|<https://plugins.jetbrains.com/plugin/7179-maven-helper>|
+|RestfulToolkit|方便查找 Spring MVC 的 RequestMapping|<https://plugins.jetbrains.com/plugin/10292-restfultoolkit>|
 |Properties to YAML Converter|把 Properties 的配置格式改为 YAML 格式|<https://plugins.jetbrains.com/plugin/8000-properties-to-yaml-converter>|
 |Git Flow Integration|Git Flow 的图形界面操作|<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>|
 |Rainbow Brackets|对各个对称括号进行着色，方便查看|<https://github.com/izhangzhihao/intellij-rainbow-brackets>|
 |MybatisX|mybatis 框架辅助（免费）|<https://plugins.jetbrains.com/plugin/10119-mybatisx>|
+|MyBatis Log Plugin|Mybatis SQL 提取|<https://plugins.jetbrains.com/plugin/10065-mybatis-log-plugin>|
 |Lombok Plugin|Lombok 功能辅助插件|<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>|
 |.ignore|各类版本控制忽略文件生成工具|<https://plugins.jetbrains.com/plugin/7495--ignore>|
 |mongo4idea|mongo 客户端|<https://github.com/dboissier/mongo4idea>|
