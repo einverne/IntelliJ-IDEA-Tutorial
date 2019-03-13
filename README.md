@@ -4,6 +4,13 @@
 
 根据 [guobinhit](https://github.com/guobinhit/intellij-idea-tutorial) 增加相应内容。
 
+## 团队 DevOps 方案参考
+
+<a target="_blank" href="https://e.coding.net/?utm_source=judasn">
+<img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+</a>
+
+
 ## 特别事件
 
 - IntelliJ IDEA 2018.3 发布（2018-11-21）
@@ -15,8 +22,7 @@
 	- 计算机类书籍销量都很小（总销量能 1W 册算是牛逼了），赚不了什么钱，而且容易 PDF，这是无法阻拦的。写实体书只是因为想白纸黑字证明自己存在过，即使哪天突然消失了也能有人会记得我。
 
 
-
-## 介绍(Introduce)
+## 介绍 (Introduce)
 
 - 本套教程适用于：
 	- [IntelliJ IDEA 14、15、2016、2017、2018 版本](https://www.jetbrains.com/idea/)
@@ -43,12 +49,12 @@
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
 - GitBook 在线阅读地址：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
-- [关于咕泡学院的教程：《IntelliJ IDEA使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
-- [IntelliJ IDEA-Windows-新手必备基础配置整理（密码：z1uo）](http://pan.baidu.com/s/1nvfzKTj)
-    - 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:\Users\你的电脑登录用户名\.IntelliJIdea2017.2\config` 目录下（[Mac 用户](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/installation-directory-introduce.md#mac-的配置文件保存路径)）
+- [关于咕泡学院的教程：《IntelliJ IDEA 使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
+- [IntelliJ IDEA-Windows- 新手必备基础配置整理（密码：z1uo）](http://pan.baidu.com/s/1nvfzKTj)
+    - 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:[Users\ 你的电脑登录用户名、.IntelliJIdea2017.2\config` 目录下（[Mac 用户](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/installation-directory-introduce.md#mac- 的配置文件保存路径）)
     - 导入后，你过去的一些配置可能会丢失，所以需要重新配置下，每个人都不一样，这需要你自己进行分析。
 
-## 目录(Contents)
+## 目录 (Contents)
 
 - **教程介绍（新用户必看）**
 	- [IntelliJ IDEA 介绍](introduce.md)
@@ -86,10 +92,10 @@
 	- [远程调试介绍（Tomcat + Jetty）](remote-debugging.md)
 - **高级设置介绍**
 	- [IntelliJ IDEA 推荐设置（新人重点）](settings-recommend-introduce.md)
-	- [IntelliJ IDEA 常用细节-1](settings-introduce-1.md)
-	- [IntelliJ IDEA 常用细节-2](settings-introduce-2.md)
-	- [IntelliJ IDEA 常用细节-3](settings-introduce-3.md)
-	- [IntelliJ IDEA 常用细节-4](settings-introduce-4.md)
+	- [IntelliJ IDEA 常用细节 -1](settings-introduce-1.md)
+	- [IntelliJ IDEA 常用细节 -2](settings-introduce-2.md)
+	- [IntelliJ IDEA 常用细节 -3](settings-introduce-3.md)
+	- [IntelliJ IDEA 常用细节 -4](settings-introduce-4.md)
 - **插件推荐、插件开发**
 	- [插件相关功能设置、插件推荐](plugins-settings.md)
 	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
@@ -104,7 +110,7 @@
 	- [常见各类文件类型图标](file-symbols-introduce.md)
 	- [本教程总结](this-tutorial-the-end.md)
 
-## 联系(Contact)
+## 联系 (Contact)
 
 - Email：`gitnavi@qq.com`
 - Blog（有微信联系方式）：<http://YouMeek.com>
@@ -112,7 +118,7 @@
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
 
-## Github 协同视频教程(Participate)
+## Github 协同视频教程 (Participate)
 
 - 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
 - YouMeek 录制
@@ -128,7 +134,7 @@
 
 - Watch：关注该项目，作者有更新的时候，会在你的 Github 主页有通知消息。
 - Star：收藏该项目，在你的头像上有一个 “Your stars” 链接，可以看到你的收藏列表，以方便下次进来。
-- Fork：复制一份项目到自己的 Github 空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
+- Fork：复制一份项目到自己的 Github 空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。
 - 只 clone 最新的一个版本记录，历史旧数据不 clone 的两种方法（推荐这样做，因为图片很多，占了很大空间）：
 	- 命令行方法：`git clone https://github.com/judasn/IntelliJ-IDEA-Tutorial.git --depth=1`
 	- TortoiseGit GUI 方法：
@@ -136,13 +142,13 @@
 ![clone 一个版本](images/clone-depth-1.jpg)
 
 
-## 参与作者汇总(Author)
+## 参与作者汇总 (Author)
 
 - 真心感谢这些志同道合的人，这个真的很重要，也希望你能一起参与（鞠躬）！
 - 同时感谢那些通过私聊方式指出一些错误地方的朋友，使得该教程能得以更加完善，真心感谢（鞠躬）！
 
 
-|作者(按参与时间排序)|地址|
+|作者（按参与时间排序）|地址|
 |:---------|:---------|
 |YouMeek|<http://YouMeek.com>|
 |温泉|<https://github.com/wenquan0hf>|
