@@ -4,42 +4,28 @@
 
 根据 [guobinhit](https://github.com/guobinhit/intellij-idea-tutorial) 增加相应内容。
 
-## 团队 DevOps 方案参考
-
-<a target="_blank" href="https://coding.net/?utm_source=judasn">
-<img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-</a>
-
 ## 新的起点
 
+- [Sculptor Boot：项目思维化的《代码生成器》体系（未来可期，做个朋友吧）](https://github.com/cdk8s/sculptor-boot-generator)
 - CDK8S：<https://mp.weixin.qq.com/s/fITEVy3IEhI4HOyTXRp9ig>
 - TKey：<https://www.oschina.net/p/tkey>
 
-
 ## 特别事件
 
-- IntelliJ IDEA 2019.2 发布（2019-07-25 性能提升明显）
-- IntelliJ IDEA 2019.1 发布（2019-03-28）
-- IntelliJ IDEA 2018.3 发布（2018-11-21）
-- IntelliJ IDEA 2018.2 发布（2018-07-25）
-	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
-	- 下载：<http://www.jetbrains.com/idea/download/>
-- 实体书
-	- 有在计划出实体书，并且空闲时已经在潦草写点，目前已经写了 25%，争取 2019 年秋季官网出大版本前完成第一版本。（不排除工作上有事情）
-	- 计算机类书籍销量都很小（总销量能 1W 册算是牛逼了），赚不了什么钱，而且容易 PDF，这是无法阻拦的。写实体书只是因为想白纸黑字证明自己存在过，即使哪天突然消失了也能有人会记得我。
-
+- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
+- 下载：<http://www.jetbrains.com/idea/download/>
 
 ## 介绍 (Introduce)
 
 - 本套教程适用于：
-	- [IntelliJ IDEA 14、15、2016、2017、2018、2019 版本](https://www.jetbrains.com/idea/)
-	- [WebStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/webstorm)
-	- [PhpStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/phpstorm)
-	- [PyCharm 2016、2017、2018、2019 版本](https://www.jetbrains.com/pycharm)
-	- [RubyMine 2016、2017、2018、2019 版本](https://www.jetbrains.com/ruby)
-	- [Goland 2017、2018、2019 版本](https://www.jetbrains.com/go)
-	- [CLion 2017、2018、2019 版本](https://www.jetbrains.com/clion)
-	- [DataGrip 2016、2017、2018、2019 版本](https://www.jetbrains.com/datagrip)
+	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018、2019、2020 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018、2019、2020 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
@@ -56,9 +42,9 @@
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
 - GitBook 在线阅读地址：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
-- [关于咕泡学院的教程：《IntelliJ IDEA 使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
-- [IntelliJ IDEA-Windows- 新手必备基础配置整理（密码：z1uo）](http://pan.baidu.com/s/1nvfzKTj)
-    - 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:[Users\ 你的电脑登录用户名、.IntelliJIdea2017.2\config` 目录下（[Mac 用户](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/installation-directory-introduce.md#mac- 的配置文件保存路径）)
+- [关于咕泡学院的教程：《IntelliJ IDEA使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
+- [IntelliJ IDEA-Windows-新手必备基础配置整理（密码：z1uo）](http://pan.baidu.com/s/1nvfzKTj)
+    - 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:\Users\你的电脑登录用户名\.IntelliJIdea2017.2\config` 目录下（[Mac 用户](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/installation-directory-introduce.md#mac-的配置文件保存路径)）
     - 导入后，你过去的一些配置可能会丢失，所以需要重新配置下，每个人都不一样，这需要你自己进行分析。
 
 ## 目录 (Contents)
@@ -99,10 +85,10 @@
 	- [远程调试介绍（Tomcat + Jetty）](remote-debugging.md)
 - **高级设置介绍**
 	- [IntelliJ IDEA 推荐设置（新人重点）](settings-recommend-introduce.md)
-	- [IntelliJ IDEA 常用细节 -1](settings-introduce-1.md)
-	- [IntelliJ IDEA 常用细节 -2](settings-introduce-2.md)
-	- [IntelliJ IDEA 常用细节 -3](settings-introduce-3.md)
-	- [IntelliJ IDEA 常用细节 -4](settings-introduce-4.md)
+	- [IntelliJ IDEA 常用细节-1](settings-introduce-1.md)
+	- [IntelliJ IDEA 常用细节-2](settings-introduce-2.md)
+	- [IntelliJ IDEA 常用细节-3](settings-introduce-3.md)
+	- [IntelliJ IDEA 常用细节-4](settings-introduce-4.md)
 - **插件推荐、插件开发**
 	- [插件相关功能设置、插件推荐](plugins-settings.md)
 	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
@@ -120,7 +106,7 @@
 ## 联系 (Contact)
 
 - Email：`gitnavi@qq.com`
-- Blog（有微信联系方式）：<http://YouMeek.com>
+- 微信：`judasn`
 - IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
@@ -177,4 +163,13 @@
 ## AD
 
 - [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
-- [适合后端开发者的前端 React-Admin](https://github.com/satan31415/umi-admin)
+
+
+## 只有上云才能撑住规模化后的发展
+
+- 初期技术选型上尽可能寻找云支持的
+- 在公司规模小，自建服务基本都做不到 99.999% 高可用
+- 在公司规模发展变迅速时，如果云技术和已有技术契合，迁移成本会低很多很多
+- 目前暂定只选择：[阿里云服务](https://www.aliyun.com/minisite/goods?userCode=v2zozyxz)
+- 这里罗列了阿里云常用的一些：[产品](https://github.com/cdk8s/cdk8s-team-style/blob/master/ops/aliyun.md)
+
